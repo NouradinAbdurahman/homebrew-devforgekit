@@ -17,14 +17,14 @@
 class Devforgekit < Formula
   desc "Local-first development environment and workstation lifecycle manager"
   homepage "https://devforgekit.dev"
-  url "https://github.com/NouradinAbdurahman/DevForgeKit/archive/refs/tags/v3.0.1.tar.gz"
-  sha256 "58e8c3f82edf9301a4697157292c7290aeb0368728fbe048da81957f8f1d19ac"
+  url "https://github.com/NouradinAbdurahman/DevForgeKit/archive/refs/tags/v3.0.2.tar.gz"
+  sha256 "5d5a530e6b957b4dc316fab3a1775af1a8d2e8376b3e53d3e30eb249dc718932"
   license "MIT"
 
   # Tracks GitHub releases directly (the same vX.Y.Z tags `url` above
   # points at) - verified live via `brew livecheck` against this exact
   # formula before adding, not guessed: correctly reports the current
-  # version as up to date against the real v3.0.1 GitHub release.
+  # version as up to date against the real v3.0.2 GitHub release.
   livecheck do
     url :stable
     strategy :github_latest
